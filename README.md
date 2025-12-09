@@ -17,7 +17,7 @@ This repo will do the following <br>
 1 - Log you into the Red Hat portal to obtain a token <br /> 
 2 - Create on AWS an OIDC provider, and create ManagedOpenShift Accounts and Operator roles<br /> 
 3 - Clone a Terrform repo needed to create a VPC, update the terraform files and then create the VPC on AWS<br /> 
-4 - Intoragate AWS for the SUBNET_IDS needed and create some env variables<br /> 
+4 - Interrogate AWS for the SUBNET_IDS needed and create some env variables<br /> 
 5 - Create the ROSA Open Shift Cluster<br /> 
 6 - Run checks against the Open Shift Cluster<br /> 
 7 - Create an Admin user for the Open Shift Cluster and then auto log you in<br /> 
