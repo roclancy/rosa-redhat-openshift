@@ -6,11 +6,14 @@ RedHat Openshift on AWS
 What this script will do <br /> 
 ================================
 Contained within this repo is an automated one command script to create (and delete) a Red Hat Open Shift cluster on AWS known as ROSA as detailed in the install document below:<br> 
+<br>
 https://docs.isovalent.com/ink/install/rosa.html#<br>
+<br>
 The Open Shift (ROSA) Cluster will not have a cni installed and is ready for the installation of Cilium and Isovalent solutions.
-<br /> 
-This repo will do the following <br /> 
-<br /> 
+<br>
+<br>
+This repo will do the following <br>
+<br> 
 1 - Log you into the Red Hat portal to obtain a token <br /> 
 2 - Create on AWS an OIDC provider, and create ManagedOpenShift Accounts and Operator roles<br /> 
 3 - Clone a Terrform repo needed to create a VPC, update the terraform files and then create the VPC on AWS<br /> 
@@ -20,24 +23,23 @@ This repo will do the following <br />
 7 - Create an Admin user for the Open Shift Cluster and then auto log you in<br /> 
 8 - Check you are sucessfully logged in as the Admin user<br />
 9 - Check the status of your worker nodes<br /> 
-<br /> 
-<br />
-<br />
+<br> 
 <br>
 
 Steps to install<br /> 
 ======================
 <br /> 
-1 - Make sure you have all CLI's listed here installed, kubectl, aws, eksctl and helm CLI tools should be installed <br />
-https://docs.isovalent.com/v1.17/operations-guide/installation/eks-install.html#requirements <br />
+1 - Make sure you have all the prerequisites listed in the link below,<br>
+<br>A VERY IMPORTANT PRE-REQ IS TO HAVE A REDHAT ACCOUNT AND HAVE THAT LINKED TO YOUR AWS ACCOUNT <br />
+https://docs.isovalent.com/ink/install/rosa.html#prerequisites <br />
 <br />
 2 - Clone this repo <br />
 <br />
 3 - You now change 1 file <br />
 <br /> 
-    - Put the name you want to call your EKS cluster & set your AWS Region, to the 0-env.sh file as shown in the image below <br /> 
+    - Navigate to the 0-env.sh file and change the variables to your requirement, this is the only change you need to make, as shown in the image below <br /> 
     <br /> 
-     <img width="443" height="121" alt="image" src="https://github.com/user-attachments/assets/bbdebda9-67b0-4103-b6a8-a699e14018b0" />
+     <img width="452" height="255" alt="image" src="https://github.com/user-attachments/assets/9937826c-b509-4464-ba55-d3a79b57575a" />
   <br />
   <br>
   
