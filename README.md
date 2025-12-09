@@ -26,7 +26,7 @@ This repo will do the following <br>
 <br> 
 <br>
 
-Steps to install<br /> 
+1 - Steps to install<br /> 
 ======================
 <br /> 
 1 - Make sure you have all the prerequisites listed in the link below,<br>
@@ -79,7 +79,7 @@ source 00-create-all.sh<br />
 <br />
 
 
-Steps to DELETE<br /> 
+2 - Steps to DELETE<br /> 
 ======================
 <br> 
 1 - run the command shown below,<br>
