@@ -35,7 +35,7 @@ https://docs.isovalent.com/ink/install/rosa.html#prerequisites <br />
 <br />
 2 - Clone this repo <br />
 <br />
-3 - You now change 1 the 0-env.sh file <br />
+3 - You now change 1 file the 0-env.sh file <br />
 <br /> 
     - Navigate to the 0-env.sh file and change the variables to your requirement, this is the only change you need to make, as shown in the image below <br /> 
     <br /> 
