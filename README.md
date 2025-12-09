@@ -1,6 +1,6 @@
 RedHat Openshift on AWS
 ===================
-<img width="1495" height="825" alt="image" src="https://github.com/user-attachments/assets/bd77e032-715c-46fe-9743-a6a0010793c5" />
+
 <br>
 
 What this script will do <br /> 
