@@ -5,31 +5,24 @@ RedHat Openshift on AWS
 
 What this script will do <br /> 
 ================================
-Contained within this repo is a script to download and run to install Isovalent enterprise and Hubble Timescape (lite) UI using the various helm charts 
-Isovalent Base install Document which this script is based on:<br /> 
-https://docs.isovalent.com/v1.17/operations-guide/installation/eks-install.html#<br /> 
+Contained within this repo is an automated one command script to create (and delete) a Red Hat Open Shift cluster on AWS known as ROSA as detailed in the install document below:<br /> 
+https://docs.isovalent.com/ink/install/rosa.html#<br>
+The Open Shift (ROSA) Cluster will not have a cni installed and is ready for the installation of Cilium and Isovalent solutions.
 <br /> 
 This repo will do the following <br /> 
 <br /> 
-1 - Check you have Isovalent Helm charts installed, and make sure they are up todate <br /> 
-2 - Create an AWS EKS cluster with CNI disabled<br /> 
-3 - Install the Prometheus metrics CRD on the EKS cluster<br /> 
-4 - Install Isovalent enterprise using Helm Charts<br /> 
-5 - Create an EKS node group<br /> 
-6 - Install DNS-HA<br /> 
-7 - Install Hubble Timescape (lite)<br /> 
-8 - Enable port forwarding to access the Hubble Timescape (lite) UI<br /> 
+1 - Log you into the Red Hat portal to obtain a token <br /> 
+2 - Create on AWS an OIDC provider, and create ManagedOpenShift Accounts and Operator roles<br /> 
+3 - Clone a Terrform repo needed to create a VPC, update the terraform files and then create the VPC on AWS<br /> 
+4 - Intoragate AWS for the SUBNET_IDS needed and create some env variables<br /> 
+5 - Create the ROSA Open Shift Cluster<br /> 
+6 - Run checks against the Open Shift Cluster<br /> 
+7 - Create an Admin user for the Open Shift Cluster and then auto log you in<br /> 
+8 - Check you are sucessfully logged in as the Admin user<br />
+9 - Check the status of your worker nodes<br /> 
 <br /> 
-Once installed you can access the UI with URL http://127.0.0.1:12000/<br /> 
 <br />
 <br />
-Below is a list of the versions used  - full list here - https://helm.isovalent.com/ <br>
-- Cilium - 1.18.4<br>
-- Cilium-dns - 1.18.4<br>
-- Hubble-enterprise - 13.2<br>
-- Hubble-timescape - 1.18.1<br>
-- Tetragon - 1.18.0<br>
-- Tetragon-policies - 1.18.0<br>
 <br>
 
 Steps to install<br /> 
