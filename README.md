@@ -1,6 +1,11 @@
 RedHat Openshift on AWS - Ready for Cilium / Isovalent
 ===================
-
+</br>VIDEO of running the script</br>
+===============
+Link to recorded video of the installation - Watch this first as it will help you understand the pre-req's and stages of the script<br>
+<br>
+(this link is an Internal only to Cisco)<br>
+https://cisco.box.com/s/gbqer8b60e4rgt6lfpvesyn81as25yv4<br>
 <br>
 
 What this script will do <br /> 
