@@ -51,7 +51,25 @@ source 00-create-all.sh<br />
 <br>
 <br />
 5 - The script will now create all as follows:<br>
-    the 
+- 1st - it will launch into your Red Hat portal to authenticate (via your browser) you and get a token, if you are not logged in the Red Hat Portal you will need to login with your details, once complete it will display that you are logged in and show the message in the image below, it will automatically move to the next step in the script.<br>
+
+- 2nd - You will be asked to confirm some values, YOU JUST ACCEPT THE DEFAULTS BY ENTERING RETURN, the images below show the point it asks for you, and and after you have entered return, you have to enter return 5 times.<br>
+<br>
+<img width="1430" height="331" alt="image" src="https://github.com/user-attachments/assets/7268edad-196c-41e2-be64-8a50e76ba89e" /><br>
+<img width="1081" height="340" alt="image" src="https://github.com/user-attachments/assets/4c995011-9e9e-4f40-b238-e01aa930dd35" /><br>
+<br>
+
+- 3rd - The script will now run and you have no more interaction after this point, when the script ends you will have a ROSA Open Shift Cluster created and all the resources needed built in your AWS account. Images below show the Red Hat Portal and AWS elements created<br>
+
+- 4th The script will auto create a oc Admin account and password and log you into your cluster automatically and print out information to confirm you are logged in and also show the status of the worker nodes created. The worker nodes will be in a "not ready" state, you can now install Cilium after this point.
+
+<img width="1493" height="606" alt="image" src="https://github.com/user-attachments/assets/dc715d43-9cd7-46c1-ad6e-a896fe1ec043" />
+<img width="725" height="281" alt="image" src="https://github.com/user-attachments/assets/1f4d5799-0744-47a1-844b-32508bf0bd2d" />
+<img width="723" height="280" alt="image" src="https://github.com/user-attachments/assets/fff8dbe4-b8db-45f1-8109-5c265bdcc92c" />
+<img width="1239" height="236" alt="image" src="https://github.com/user-attachments/assets/731f5175-8855-48e1-a3a7-4a7cbd49f1ab" />
+<img width="613" height="585" alt="image" src="https://github.com/user-attachments/assets/e0589a50-5cd1-445b-97d2-40d585719c6d" />
+<img width="576" height="236" alt="image" src="https://github.com/user-attachments/assets/6d48956f-8757-4b9e-976f-78033d762d2e" />
+
 <br /> 
 <br />
 
