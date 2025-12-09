@@ -52,7 +52,12 @@ source 00-create-all.sh<br />
 <br />
 5 - The script will now create all as follows:<br>
 - 1st - it will launch into your Red Hat portal to authenticate (via your browser) you and get a token, if you are not logged in the Red Hat Portal you will need to login with your details, once complete it will display that you are logged in and show the message in the image below, it will automatically move to the next step in the script.<br>
-
+<br>
+<img width="819" height="93" alt="image" src="https://github.com/user-attachments/assets/f7e38b40-89c7-40bd-910a-6a5b396a40dc" /><br>
+<br>
+<img width="1200" height="261" alt="image" src="https://github.com/user-attachments/assets/5459b3a0-590e-4a74-8591-d61fabbb5bfb" />
+<br>
+<br>
 - 2nd - You will be asked to confirm some values, YOU JUST ACCEPT THE DEFAULTS BY ENTERING RETURN, the images below show the point it asks for you, and and after you have entered return, you have to enter return 5 times.<br>
 <br>
 <img width="1430" height="331" alt="image" src="https://github.com/user-attachments/assets/7268edad-196c-41e2-be64-8a50e76ba89e" /><br>
