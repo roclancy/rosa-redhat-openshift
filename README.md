@@ -1,4 +1,4 @@
-RedHat Openshift on AWS
+RedHat Openshift on AWS - Ready for Cilium / Isovalent
 ===================
 
 <br>
