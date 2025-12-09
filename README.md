@@ -81,7 +81,7 @@ Steps to DELETE<br />
 <br>
  - source delete-rosa-all.sh<br>
 <br>
-<img width="1199" height="109" alt="image" src="https://github.com/user-attachments/assets/6608c0c1-4d7d-4790-a2c1-ceaf3fdeeb92" /><br>
+<img width="1407" height="520" alt="image" src="https://github.com/user-attachments/assets/c1b82580-d98a-4837-90e1-aa0d8cfcf1ba" /><br>
 <br>
 it will delete all the following:<br>
 <br>
