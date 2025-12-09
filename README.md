@@ -35,7 +35,7 @@ https://docs.isovalent.com/ink/install/rosa.html#prerequisites <br />
 <br />
 2 - Clone this repo <br />
 <br />
-3 - You now change 1 file - the 0-env.sh file <br />
+3 - You now change 1 the 0-env.sh file <br />
 <br /> 
     - Navigate to the 0-env.sh file and change the variables to your requirement, this is the only change you need to make, as shown in the image below <br /> 
     <br /> 
@@ -73,14 +73,21 @@ source 00-create-all.sh<br />
 <br /> 
 <br />
 
-NOTE:<br /> 
-========================
-<br /> 
-During the install you will see an error message after installing the Helm charts, this is due to the helm chart waiting for the certificates (for TLS) pod<br />
-to be created but this will not move to a running pod until the EKS nodes are created which is the next step after the error message.<br />
-<br />
-Below is a comment to identify the error message you will see : <br />
-<br />
-"****************************************"<br />
-"THE ABOVE ERROR MESSAGE IS BECAUSE THE NODES HAVE NOT BEEN CREATED, AND THE POD FOR THE CERT IS WAITING TO BE ASSIGNED"<br />
-"****************************************"<br />
+
+Steps to DELETE<br /> 
+======================
+<br> 
+1 - run the command shown below,<br>
+<br>
+ - source delete-rosa-all.sh<br>
+<br>
+<img width="1199" height="109" alt="image" src="https://github.com/user-attachments/assets/6608c0c1-4d7d-4790-a2c1-ceaf3fdeeb92" /><br>
+<br>
+it will delete all the following:<br>
+<br>
+- The ROSA Cluster Managed by Red Hat<br>
+- All the AWS config created<br>
+- Remove all the new files created in your local copy<br>
+- Remove the cloned Terrform directory used to create the VPC<br>
+- The only changes that will remain are the changes you made to your 0-env.sh file<br>
+
