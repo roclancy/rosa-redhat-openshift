@@ -35,7 +35,7 @@ https://docs.isovalent.com/ink/install/rosa.html#prerequisites <br />
 <br />
 2 - Clone this repo <br />
 <br />
-3 - You now change 1 file <br />
+3 - You now change 1 file - the 0-env.sh file <br />
 <br /> 
     - Navigate to the 0-env.sh file and change the variables to your requirement, this is the only change you need to make, as shown in the image below <br /> 
     <br /> 
@@ -45,9 +45,14 @@ https://docs.isovalent.com/ink/install/rosa.html#prerequisites <br />
   
 4 - Once you have completed the changes above, now run the following command from your terminal:<br />
 <br />
-source 0-create-all.sh<br /> 
+source 00-create-all.sh<br /> 
+<br>
+<img width="612" height="78" alt="image" src="https://github.com/user-attachments/assets/fb0b930b-0705-4c2c-b22b-c76bf2cd1887" />
+<br>
 <br />
-5 - The script will now create all and install Isovalent Cilium and Hubble Timescape UI(lite), Once installed you can access the Hubble-Timescape UI with URL http://127.0.0.1:12000/<br /> 
+5 - The script will now create all as follows:<br>
+    the 
+<br /> 
 <br />
 
 NOTE:<br /> 
