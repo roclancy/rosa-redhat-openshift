@@ -5,7 +5,7 @@ RedHat Openshift on AWS
 
 What this script will do <br /> 
 ================================
-Contained within this repo is an automated one command script to create (and delete) a Red Hat Open Shift cluster on AWS known as ROSA as detailed in the install document below:<br /> 
+Contained within this repo is an automated one command script to create (and delete) a Red Hat Open Shift cluster on AWS known as ROSA as detailed in the install document below:<br> 
 https://docs.isovalent.com/ink/install/rosa.html#<br>
 The Open Shift (ROSA) Cluster will not have a cni installed and is ready for the installation of Cilium and Isovalent solutions.
 <br /> 
